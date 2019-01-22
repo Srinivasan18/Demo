@@ -6,5 +6,5 @@ This is simple readme file.
 This is modified content
 
 Modification for creating branch 
-Modification for creating branch updates 
+this is update to conflict the branch merge
 

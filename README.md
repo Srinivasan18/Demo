@@ -5,6 +5,6 @@ This is simple readme file.
 
 This is modified content
 
-Modification for creating branch 
+this is bound to cause trouble   
 #####updating the same line for the conflict  
 

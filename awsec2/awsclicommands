@@ -1,0 +1,72 @@
+ec2 describe-instances --filters "Name=private-ip-address,Values=10.135.6.62" --region eu-west-1
+
+chown: changing ownership of ?/home/qncadmin/VAL/LifeSphereEVTriage1.0_Latest?: Operation not permitted
+chown: changing ownership of ?/home/qncadmin/VAL?: Operation not permitted
+chown: changing ownership of ?/home/qncadmin/LICENSE_SCRIPTS.LOG?: Operation not permitted
+chown: changing ownership of ?/home/qncadmin/AGX_ROLE.LOG?: Operation not permitted
+chown: changing ownership of ?/home/qncadmin/UPG_EV_27JUNE_28AUG.sql?: Operation not permitted
+chown: changing ownership of ?/home/qncadmin/UPG_EV_27JUNE_28AUG_DS1.LOG?: Operation not permitted
+chown: changing ownership of ?/home/qncadmin/bash.profile?: Operation not permitted
+chown: changing ownership of ?/home/qncadmin/.bash_profile?: Operation not permitted
+chown: changing ownership of ?/home/qncadmin?: Operation not permitted
+
+
+aws ec2 create-tags --resources i-051901e9367f81665 --tags Key='OS Version',Value=centos Key='Name',Value=LSSMT_sftp_customer_demo
+
+
+
+ec2 create-tags --resources i-051901e9367f81665 --tags Key='Business Unit',Value=%value1 Key='Environment',Value=%value2 Key='Project',Value=%value3 Key='Product',Value=%value4 Key='Version',Value=%value5 Key='Region',Value=%value6 Key='Business_Model',Value=%value7 Key='Service',Value=%value8 Key='Customer',Value=%value9 Key='Revenue_Type',Value=%value10 Key='Requestor',Value=%value11 Key='Provisioner',Value=%value12 Key='Provisioner',Value=%value13 Key='Ticket ID',Value=%value14 Key='OS Version',Value=%value15 Key='DB Version',Value=%value16 Key='Retention Period',Value=%value17 Key='Provisioning Month',Value=%value18 
+
+DBName
+DbiResourceId
+DBInstanceArn
+Engine
+
+
+AWS EC2 instance 
+display
+create 
+modify
+
+ec2 describe-instances --query "Reservations[*].Instances[*].[InstanceId,Tags[*]]"
+awsbal ec2 describe-instances --query "Reservations[*].Instances[*].[InstanceId]" --region
+
+
+
+ec2 describe-instances --query "Reservations[*].Instances[*].[InstanceId,Tags[*]]"
+
+ec2 describe-instances --query 'Reservations[*].Instances[*].[InstanceId,Tags[Key=Name]
+
+
+ec2 describe-instances --region us-east-1 | grep -w "PrivateIpAddress\|InstanceId\|InstanceType\Customer\|Revenue_Type\|VolumeId\|AvailabilityZone\|LaunchTime\|Name"
+
+PrivateIpAddress
+InstanceId
+InstanceType
+Customer
+Revenue_Type
+VolumeId
+AvailabilityZone
+LaunchTime
+Name
+
+
+awssaf ec2 describe-instances --instance-ids i-0a09d9640d7c79c3a --query "Reservations[*].Instances[*].[PrivateIpAddress,InstanceId,AvailabilityZone,LaunchTime,Tags[*]]" --region us-east-1
+
+JNJ NVirgina, oregon
+Instanace name
+Customer
+Instanace Id
+Instance type 
+Revenue type
+Platform
+AZ
+inst state
+Launch time
+IP
+
+aws ec2 describe-volumes --query 'Volumes[*].{ID:VolumeId,InstanceId:Attachments[0].InstanceId,AZ:AvailabilityZone,Size:Size}' --output table
+
+awssaf ec2 describe-instances --instance-ids i-0a09d9640d7c79c3a --query 'Reservations[*].Instances[*].{IP:PrivateIpAddress,InstanceId:Attachments[0].InstanceId,AZ:AvailabilityZone,Time:LaunchTime}' --region us-east-1
+
+awssaf ec2 describe-instances --instance-ids i-0a09d9640d7c79c3a --region us-east-1 | grep -w "PrivateIpAddress\|InstanceId\|InstanceType|\Customer\|Revenue_Type\|AvailabilityZone\|LaunchTime\|Name" | awk '{print $4}'

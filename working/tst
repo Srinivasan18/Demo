@@ -1,0 +1,1380 @@
+i-0455963e09d27ab22
+Business Unit	agSafety
+Provisioner	-
+Ticket ID	-
+Business_Model	Private
+Remarks	
+Requestor	RadhaKrushna
+Service	EC2
+Project	LSSST-J&J
+Region	North Virginia 
+DB Version	NA
+OS Version	-
+Environment	Sandbox
+Product	ARISg
+Version	7.3.1.5
+Retention Period	-
+Provisioning Month	-
+Name	agLSSST_JNJ_SBX_ARISG_1A
+Customer	J&J
+Revenue_Type	Revenue
+i-01cbf7163f0a3e64a
+OS Version	-
+Revenue_Type	Non-Revenue
+Version	-
+Product	OEM
+Project	LSSST-J&J
+Environment	Internal
+Remarks	
+DB Version	NA
+Ticket ID	-
+Requestor	RadhaKrushna
+Customer	J&J
+Business Unit	agSafety
+Provisioner	-
+Retention Period	-
+Name	agLSSST_JnJ_PRISM_OEM
+Business_Model	Private
+Provisioning Month	-
+Region	North Virginia 
+Service	EC2
+i-0afcb39d92c2ebe88
+Provisioning Month	NOV 2018
+OS Version	Centos7
+Requestor	Ashotosh Sahoo
+DB Version	NA
+Ticket ID	CTOS-558287
+Product	agXchange
+Retention Period	Till Customer live
+Project	LSSST-J&J
+Business Unit	agSafety
+Provisioner	Rajendra
+Name	agLSSST_J&J_PRD_AGX_03_1A
+Remarks	
+ Service	EC2
+Business_Model	Private
+Environment	Production
+Revenue_Type	Revenue
+Customer	J&J
+Version	7.4.4
+Region	N.Virginia
+i-0b3cf77297aace305
+OS Version	Centos7
+Provisioning Month	NOV 2018
+Revenue_Type	Revenue
+Service	EC2
+Version	7.4.4
+Region	N.Virginia
+Business_Model	Private
+Business Unit	agSafety
+Environment	Production
+Product	agXchange
+Ticket ID	CTOS-558287
+Name	agLSSST_J&J_PRD_AGX_02_1A
+Provisioner	Rajendra
+Requestor	Ashotosh Sahoo
+Customer	J&J
+DB Version	NA
+Project	LSSST-J&J
+Remarks	
+Retention Period	Till Customer live
+i-08565e78215e804ea
+Remarks	
+Environment	Production
+Name	agLSSST_J&J_PRD_AGX_01_1A
+Provisioner	Rajendra
+ Service	EC2
+Business_Model	Private
+Project	LSSST-J&J
+Region	N.Virginia
+Customer	J&J
+Revenue_Type	Revenue
+Version	7.4.4
+OS Version	Centos7
+Requestor	Ashotosh Sahoo
+Product	agXchange
+Retention Period	Till Customer live
+DB Version	NA
+Ticket ID	CTOS-558287
+Business Unit	agSafety
+Provisioning Month	NOV 2018
+i-01f16cd192d004239
+Revenue_Type	Revenue
+Provisioning Month	NOV 2018
+OS Version	Centos7
+Name	agLSSST_J&J_PRD_AGX_06_1A
+DB Version	NA
+Project	LSSST-J&J
+Retention Period	Till Customer live
+ Service	EC2
+Remarks	
+Business Unit	agSafety
+Customer	J&J
+Provisioner	Rajendra
+Region	N.Virginia
+Requestor	Ashotosh Sahoo
+Version	7.4.4
+Product	agXchange
+Ticket ID	CTOS-558287
+Business_Model	Private
+Environment	Production
+i-07d4ae7eed1e494b5
+Name	agLSSST_J&J_PRD_AGX_05_1A
+Project	LSSST-J&J
+Revenue_Type	Revenue
+Provisioner	Rajendra
+OS Version	Centos7
+Environment	Production
+Business_Model	Private
+Retention Period	Till Customer live
+Requestor	Ashotosh Sahoo
+Version	7.4.4
+DB Version	NA
+Region	N.Virginia
+Ticket ID	CTOS-558287
+Product	agXchange
+Customer	J&J
+Provisioning Month	NOV 2018
+Business Unit	agSafety
+ Service	EC2
+Remarks	
+i-06716a08d09cbf8b1
+Provisioning Month	NOV 2018
+Revenue_Type	Revenue
+OS Version	Centos7
+Region	N.Virginia
+Product	agXchange
+Ticket ID	CTOS-558287
+Requestor	Ashotosh Sahoo
+Version	7.4.4
+Business_Model	Private
+Environment	Production
+Provisioner	Rajendra
+Customer	J&J
+Business Unit	agSafety
+DB Version	NA
+Retention Period	Till Customer live
+Project	LSSST-J&J
+Name	agLSSST_J&J_PRD_AGX_04_1A
+ Service	EC2
+Remarks	
+i-0ed13d50cd79a0170
+Business_Model	Private
+Project	LSSST-J&J
+Service	EC2
+Environment	QC
+Remarks	
+Name	agLSSST_JnJ_QC_IRT_OST_1A
+Region	N.Virginia
+Customer	J&J
+Revenue_Type	Revenue
+Business Unit	agSafety
+Product	Arisg
+Provisioner	Rajendra
+i-010cb5af0fdd41c5e
+Environment	QC
+DB Version	NA
+Region	N.Virginia
+Service	EC2
+Requestor	RadhaKrushna
+Ticket ID	-
+Product	NT_Service
+Retention Period	-
+Remarks	
+Revenue_Type	Revenue
+Customer	J&J
+OS Version	-
+Business_Model	Private
+Project	LSSST-J&J
+Version	7.3.1.5
+Provisioning Month	-
+Provisioner	-
+Business Unit	agSafety
+Name	agLSSST_JnJ_QC_NT_Services_1B
+i-0fc1e6f0fd56b6d13
+OS Version	RHEL-7.4
+Revenue_Type	Revenue
+Project	LSSST-J&J
+Provisioning Month	NOV 2018
+Retention Period	Till Customer live
+Ticket ID	CTOS-559862
+DB Version	NA
+Business Unit	agSafety
+Customer	J&J
+Name	agLSSST_J&J_PRD_MGMT-Documentum_01_1A
+Provisioner	Rajendra
+Remarks	
+Requestor	Ashotosh Sahoo
+Environment	Production
+Product	Documentum
+Service	EC2
+Business_Model	Private
+Version	
+Region	N.Virginia
+i-00b196fbcb33ce56a
+Customer	J&J
+Business Unit	agSafety
+Retention Period	Till Customer live
+DB Version	NA
+Business_Model	Private
+Provisioning Month	NOV 2018
+Provisioner	Rajendra
+Requestor	Ashotosh Sahoo
+Environment	Production
+Product	Load Generator
+Name	agLSSST_J&J_PRD_LG_02_1A
+Revenue_Type	Revenue
+ Region	N.Virginia
+Remarks	-
+Version	7.4.4
+ Service	EC2
+ Ticket ID	CTOS-558287
+Project	LSSST-J&J
+OS Version	Windows 2012 R2 STD
+i-01489adcb87e07f44
+Revenue_Type	Revenue
+ Region	N.Virginia
+Name	agLSSST_J&J_PRD_LG_01_1A
+Remarks	-
+Version	7.4.4
+Provisioning Month	NOV 2018
+Business_Model	Private
+Provisioner	Rajendra
+Requestor	Ashotosh Sahoo
+Product	Load Generator
+Customer	J&J
+Environment	Production
+Business Unit	agSafety
+Retention Period	Till Customer live
+DB Version	NA
+Project	LSSST-J&J
+ Ticket ID	CTOS-558287
+ Service	EC2
+OS Version	Windows 2012 R2 STD
+i-064bd0ce6dbf9a408
+Requestor	Ashotosh Sahoo
+DB Version	NA
+Business Unit	agSafety
+Customer	J&J
+Provisioning Month	NOV 2018
+Provisioner	Rajendra
+Remarks	-
+Version	7.4.4
+Environment	Production
+Name	agLSSST_J&J_PRD_NTServices_01_1A
+Product	NT_Service
+Business_Model	Private
+Revenue_Type	Revenue
+ Region	N.Virginia
+Project	LSSST-J&J
+Retention Period	Till Customer live
+ Service	EC2
+ Ticket ID	CTOS-558287
+OS Version	Windows 2012 R2 STD
+i-0ac4922f1e7cab81f
+Business_Model	Private
+Project	LSSST-J&J
+Provisioner	-
+Business Unit	agSafety
+Customer	J&J
+Revenue_Type	Revenue
+Ticket ID	-
+Region	North Virginia 
+Version	7.3.1.5
+Product	NT_Service
+Provisioning Month	-
+Service	EC2
+Retention Period	-
+Environment	Sandbox
+Name	agLSSST_JNJ_SND_NT_Services_1A
+DB Version	NA
+OS Version	-
+Remarks	
+Requestor	RadhaKrushna
+i-05125ad302ad39b48
+Name	agLSSST_JnJ_QC_agEncoder_1A
+Customer	J&J
+Revenue_Type	Revenue
+Business Unit	agSafety
+Product	Arisg
+Provisioner	Rajendra
+Business_Model	Private
+Remarks	
+Service	EC2
+Environment	QC
+Region	N.Virginia
+Project	LSSST-J&J
+i-06d4124ee6d4a1892
+Product	Load Generator
+Revenue_Type	Revenue
+Provisioner	Rajendra
+Environment	Production
+Business_Model	Private
+Version	7.4.4
+Remarks	-
+Requestor	Ashotosh Sahoo
+DB Version	NA
+OS Version	Windows 2012 R2 STD
+Customer	J&J
+Provisioning Month	NOV 2018
+Business Unit	agSafety
+Name	agLSSST_J&J_PRD_LG_04_1B
+ Service	EC2
+ Ticket ID	CTOS-558287
+Project	LSSST-J&J
+ Region	N.Virginia
+Retention Period	Till Customer live
+i-032a332c0241b7854
+Version	7.4.4
+OS Version	Windows 2012 R2 STD
+Provisioning Month	NOV 2018
+Remarks	-
+Retention Period	Till Customer live
+Requestor	Ashotosh Sahoo
+Customer	J&J
+Revenue_Type	Revenue
+ Service	EC2
+Business_Model	Private
+Project	LSSST-J&J
+ Ticket ID	CTOS-558287
+Provisioner	Rajendra
+Environment	Production
+Product	Load Generator
+Name	agLSSST_J&J_PRD_LG_03_1B
+Business Unit	agSafety
+ Region	N.Virginia
+DB Version	NA
+i-0f3fb233a956ea2fd
+Provisioning Month	NOV 2018
+Version	7.4.4
+Revenue_Type	Revenue
+DB Version	NA
+OS Version	Windows 2012 R2 STD
+Retention Period	Till Customer live
+ Region	N.Virginia
+Project	LSSST-J&J
+ Ticket ID	CTOS-558287
+ Service	EC2
+Environment	Production
+Product	NT_Service
+Provisioner	Rajendra
+Customer	J&J
+Business Unit	agSafety
+Requestor	Ashotosh Sahoo
+Business_Model	Private
+Remarks	-
+Name	agLSSST_J&J_PRD_NTServices_04_1B
+i-040a9471a84debb37
+Provisioner	Rajendra
+Remarks	
+Service	EC2
+Business_Model	Private
+Project	LSSST-J&J
+Environment	QC
+Name	agLSSST_JnJ_QC_CCM_1A
+Region	N.Virginia
+Business Unit	agSafety
+Revenue_Type	Revenue
+Customer	J&J
+Product	Arisg
+i-0d2391f0b9041c40a
+Environment	Sandbox
+Requestor	RadhaKrushna
+Version	7.3.1.5
+DB Version	NA
+Retention Period	-
+Region	North Virginia 
+Business_Model	Private
+Provisioning Month	-
+Service	EC2
+Provisioner	-
+Remarks	
+Business Unit	agSafety
+Project	LSSST-J&J
+Product	NT_Service
+Ticket ID	-
+Name	agLSSST_JNJ_SBX_NT_Services_1B
+OS Version	-
+Revenue_Type	Revenue
+Customer	J&J
+i-0c4729367e2a61d96
+Business_Model	Private
+Product	NA
+Version	NA
+OS Version	NA
+Customer	Internal
+Environment	POC
+Business Unit	agSafety
+Region	North Virginia
+Requestor	POC_request
+Service	EC2
+Name	LinuxHard
+Ticket ID	NA
+DB Version	NA
+Provisioner	Srinivasan_Vasanth
+Provisioning Month	November
+Revenue_Type	Non-Revenue
+Project	POC
+Retention Period	1-day
+i-0fc0fc559f59fbcf3
+Requestor	RadhaKrushna
+DB Version	NA
+Version	7.4.4
+Provisioning Month	-
+Service	EC2
+Ticket ID	-
+Provisioner	-
+Environment	Sandbox
+Business Unit	agSafety
+Name	agLSSST_JNJ_IRT_SBX_Documentum
+Region	North Virginia 
+OS Version	-
+Product	Documentum
+Business_Model	Private
+Project	LSSST-J&J
+Remarks	
+Retention Period	-
+Customer	J&J
+Revenue_Type	Revenue
+i-0d44cdf1c03dd3c4e
+Provisioning Month	NOV 2018
+Version	7.4.4
+Remarks	-
+Name	agLSSST_J&J_PRD_NTServices_02_1B
+OS Version	Windows 2012 R2 STD
+Revenue_Type	Revenue
+Customer	J&J
+Product	NT_Service
+ Ticket ID	CTOS-558287
+Project	LSSST-J&J
+Provisioner	Rajendra
+ Service	EC2
+Business_Model	Private
+Environment	Production
+Requestor	Ashotosh Sahoo
+ Region	N.Virginia
+Retention Period	Till Customer live
+Business Unit	agSafety
+DB Version	NA
+i-043fae4e00929e816
+Revenue_Type	Revenue
+Business_Model	Private
+Name	agLSSST_J&J_PRD_ARISG_10_1B
+Version	7.4.4
+Customer	J&J
+Requestor	Ashotosh Sahoo
+DB Version	NA
+Region	N.Virginia
+Ticket ID	CTOS-558287
+Environment	Production
+Retention Period	Till Customer live
+Service	EC2
+Remarks	
+Provisioner	Rajendra
+Project	LSSST-J&J
+Business Unit	agSafety
+OS Version	Centos7
+Product	ARISg
+Provisioning Month	NOV 2018
+i-0b1a2e61c3a95fe26
+Customer	J&J
+DB Version	NA
+Region	N.Virginia
+Business Unit	agSafety
+Business_Model	Private
+Version	7.4.4
+Provisioning Month	NOV 2018
+Provisioner	Rajendra
+Name	agLSSST_J&J_PRD_ARISG_06_1B
+Requestor	Ashotosh Sahoo
+Ticket ID	CTOS-558287
+Environment	Production
+Service	EC2
+Revenue_Type	Revenue
+OS Version	Centos7
+Product	ARISg
+Project	LSSST-J&J
+Retention Period	Till Customer live
+Remarks	
+i-084c3fe6d3c46c6d1
+Business_Model	Private
+Project	LSSST-J&J
+Name	agLSSST_J&J_PRD_ARISG_08_1B
+Product	ARISg
+OS Version	Centos7
+Business Unit	agSafety
+Requestor	Ashotosh Sahoo
+Environment	Production
+Provisioner	Rajendra
+Ticket ID	CTOS-558287
+Version	7.4.4
+Service	EC2
+Provisioning Month	NOV 2018
+Retention Period	Till Customer live
+DB Version	NA
+Region	N.Virginia
+Customer	J&J
+Revenue_Type	Revenue
+Remarks	
+i-0783d613c96fef594
+Environment	Production
+Business Unit	agSafety
+Remarks	
+Provisioner	Rajendra
+Requestor	Ashotosh Sahoo
+Customer	J&J
+DB Version	NA
+Product	ARISg
+OS Version	Centos7
+Project	LSSST-J&J
+Retention Period	Till Customer live
+Provisioning Month	NOV 2018
+Revenue_Type	Revenue
+Region	N.Virginia
+Name	agLSSST_J&J_PRD_ARISG_09_1B
+Service	EC2
+Ticket ID	CTOS-558287
+Business_Model	Private
+Version	7.4.4
+i-084e649aae1633ce5
+Ticket ID	CTOS-558287
+Requestor	Ashotosh Sahoo
+Customer	J&J
+Retention Period	Till Customer live
+Remarks	
+Service	EC2
+Environment	Production
+Name	agLSSST_J&J_PRD_ARISG_07_1B
+Business_Model	Private
+Version	7.4.4
+Region	N.Virginia
+Revenue_Type	Revenue
+Provisioning Month	NOV 2018
+Project	LSSST-J&J
+Provisioner	Rajendra
+Business Unit	agSafety
+Product	ARISg
+DB Version	NA
+OS Version	Centos7
+i-0d6ec58ea467288cd
+Customer	J&J
+Ticket ID	-
+Provisioner	-
+Business_Model	Private
+Remarks	
+Region	N.Virginia
+Retention Period	-
+Revenue_Type	Revenue
+Environment	Development
+Version	7.3.1.5
+Product	CCM_Alerts
+Provisioning Month	-
+Name	agLSSST_JnJ_DEV_CCM_1A
+Service	EC2
+DB Version	NA
+OS Version	-
+Project	LSSST-J&J
+Requestor	RadhaKrushna
+Business Unit	agSafety
+i-01b10896de1def885
+Revenue_Type	Revenue
+Project	LSSST-J&J
+Requestor	RadhaKrushna
+DB Version	NA
+OS Version	-
+Customer	J&J
+Region	N.virginia
+Product	NT_Service
+Ticket ID	-
+Business Unit	agSafety
+Remarks	
+Provisioner	-
+Business_Model	Private
+Provisioning Month	-
+Service	EC2
+Environment	Development
+Version	7.3.1.5
+Name	agLSSST_JnJ_DEV_NT_Services_1B
+Retention Period	-
+i-0dbdeec5d953e3ced
+Version	-
+Provisioning Month	NOV 2018
+Revenue_Type	Revenue
+Product	JASFTP
+DB Version	NA
+Project	LSSST-J&J
+Retention Period	Till Customer live
+OS Version	Windows 2012 R2 STD
+Remarks	
+Customer	J&J
+Provisioner	Rajendra
+Requestor	Ashotosh Sahoo
+Business Unit	agSafety
+Name	agLSSST_J&J_PRD_JASFTP_01_1A
+Service	EC2
+Region	N.Virginia
+Ticket ID	CTOS-558287
+Environment	Production
+Business_Model	Private
+i-0888defe4fd8dd347
+Service	EC2
+Requestor	RadhaKrushna
+Provisioning Month	-
+Name	agLSSST_JnJ_DEV_ARISG_1A
+DB Version	NA
+OS Version	-
+Product	ARISg
+Business Unit	agSafety
+Project	LSSST-J&J
+Business_Model	Private
+Remarks	
+Provisioner	-
+Customer	J&J
+Revenue_Type	Revenue
+Version	7.3.1.5
+Ticket ID	-
+Environment	Development
+Region	N.Virginia
+Retention Period	-
+i-08d96374e415649dc
+Environment	Development
+Retention Period	-
+Requestor	RadhaKrushna
+Version	7.4.4
+Region	N.Virginia
+Name	agLSSST_JnJ_DEV_Documentum_1A
+Revenue_Type	Revenue
+Customer	J&J
+Product	Documentum
+Business Unit	agSafety
+Remarks	
+Ticket ID	-
+DB Version	NA
+Project	LSSST-J&J
+OS Version	-
+Service	EC2
+Business_Model	Private
+Provisioning Month	-
+Provisioner	-
+i-025ead35c44f1ffa1
+Requestor	RadhaKrushna
+DB Version	NA
+Service	EC2
+Customer	J&J
+Version	7.3.1.5
+Provisioner	-
+Provisioning Month	-
+Business_Model	Private
+Retention Period	-
+Ticket ID	-
+OS Version	-
+Product	ARISg
+Name	agLSSST_JNJ_SBX_ARISG_1B
+Region	North Virginia 
+Environment	Sandbox
+Revenue_Type	Revenue
+Business Unit	agSafety
+Remarks	
+Project	LSSST-J&J
+i-06ccff641b076120b
+Name	agLSSST_JNJ_SBX_IRT_OST_1B
+Provisioning Month	-
+Service	EC2
+Project	LSSST-J&J
+Environment	Sandbox
+Requestor	RadhaKrushna
+DB Version	NA
+OS Version	-
+Remarks	
+Provisioner	-
+Business Unit	agSafety
+Business_Model	Private
+Customer	J&J
+Region	North Virginia 
+Revenue_Type	Revenue
+Product	IRT_OST
+Ticket ID	-
+Version	7.3.1.5
+Retention Period	-
+i-01cf5b1a732af420d
+Retention Period	-
+Provisioning Month	-
+Product	Arisg
+Revenue_Type	Revenue
+Region	North Virginia 
+Service	EC2
+Business_Model	Private
+Version	7.3.1.5
+Ticket ID	-
+Remarks	
+Business Unit	agSafety
+Provisioner	-
+Customer	J&J
+DB Version	NA
+OS Version	-
+Environment	Sandbox
+Project	LSSST-J&J
+Name	agLSSST_JnJ_SBX_DB
+Requestor	RadhaKrushna
+Instance Type	RHEL7.4
+i-09c793daee524ce6a
+Requestor	Ashotosh Sahoo
+DB Version	NA
+Ticket ID	CTOS-558287
+Business Unit	agSafety
+Region	N.Virginia
+Customer	J&J
+Provisioning Month	NOV 2018
+Provisioner	Rajendra
+Environment	Production
+Service	EC2
+Business_Model	Private
+Name	agLSSST_J&J_PRD_STNDBY-Documentum_01_1B
+Revenue_Type	Revenue
+Version	-
+Product	Documentum
+Project	LSSST-J&J
+Retention Period	Till Customer live
+OS Version	Windows 2012 R2 STD
+Remarks	
+i-08dd899a3aa0bcb92
+Business Unit	agSafety
+Ticket ID	-
+Customer	J&J
+Provisioner	-
+Remarks	
+Project	LSSST-J&J
+Requestor	RadhaKrushna
+Product	ARISg
+Name	agLSSST_JnJ_QC_ARISG_1A
+DB Version	NA
+Environment	QC
+OS Version	-
+Version	7.3.1.5
+Revenue_Type	Revenue
+Provisioning Month	-
+Business_Model	Private
+Service	EC2
+Retention Period	-
+Region	N.Virginia
+i-0895cb1b1d0437bcc
+Ticket ID	-
+Business Unit	agSafety
+Remarks	
+Name	agConvert1.1-AMI-ArisgAcc
+Provisioner	-
+Project	LSSST-J&J
+Environment	Preval
+Product	agConvert
+Version	1.1
+OS Version	-
+DB Version	NA
+Revenue_Type	Non-Revenue
+Region	North Virginia 
+Service	EC2
+Customer	Internal
+Provisioning Month	-
+Business_Model	Private
+Retention Period	-
+Requestor	Venkateswar Rao K /Subhash
+i-0d01f651069172fb1
+Revenue_Type	Revenue
+Provisioning Month	NOV 2018
+Product	agEncoder
+Project	LSSST-J&J
+Provisioner	Rajendra
+Business Unit	agSafety
+DB Version	NA
+OS Version	Centos7
+Ticket ID	CTOS-558287
+Version	
+Requestor	Ashotosh Sahoo
+Customer	J&J
+Retention Period	Till Customer live
+Remarks	
+Service	EC2
+Environment	Production
+Business_Model	Private
+Region	N.Virginia
+Name	agLSSST_J&J_PRD_agEncoder_01_1A
+i-03f7db907f0a87b44
+Retention Period	-
+Revenue_Type	Revenue
+Environment	Development
+Product	agEncoder
+Region	N.Virginia
+Provisioning Month	-
+Provisioner	-
+Ticket ID	-
+Service	EC2
+Business_Model	Private
+Business Unit	agSafety
+Customer	J&J
+Version	7.4.0.1
+OS Version	-
+Requestor	RadhaKrushna
+Project	LSSST-J&J
+DB Version	NA
+Name	agLSSST_JnJ_DEV_agEncoder_1A
+Remarks	
+i-0550a944b3680c499
+Name	agLSSST_JnJ_QC_agconv_1A
+Retention Period	-
+Service	EC2
+Business_Model	Private
+Project	LSSST-J&J
+Requestor	RadhaKrushna
+OS Version	-
+Provisioning Month	-
+Provisioner	-
+Product	agConvert
+Business Unit	agSafety
+DB Version	NA
+Environment	QC
+Remarks	
+Ticket ID	-
+Region	N.Virginia
+Revenue_Type	Revenue
+Customer	J&J
+i-05279001680fc65f2
+Provisioning Month	-
+Retention Period	-
+Revenue_Type	Revenue
+Name	agLSSST_JnJ_QC_ARISG_1B
+DB Version	NA
+Environment	QC
+OS Version	-
+Requestor	RadhaKrushna
+Remarks	
+Provisioner	-
+Project	LSSST-J&J
+Business Unit	agSafety
+Customer	J&J
+Product	ARISg
+Region	N.Virginia
+Version	7.3.1.5
+Service	EC2
+Business_Model	Private
+Ticket ID	-
+i-0491edf7b651dab00
+Name	agLSSST_JnJ_QC_Documentum_1A
+Service	EC2
+Customer	J&J
+Retention Period	-
+Provisioner	-
+Provisioning Month	-
+Business_Model	Private
+Ticket ID	-
+Region	N.Virginia
+Version	7.4.4
+Revenue_Type	Revenue
+Product	Documentum
+Business Unit	agSafety
+Remarks	
+OS Version	-
+DB Version	NA
+Environment	QC
+Project	LSSST-J&J
+Requestor	RadhaKrushna
+i-034614d71e5208c6b
+Region	N.Virginia
+Remarks	
+Provisioner	Rajendra
+Environment	Production
+Name	agLSSST_J&J_PRD_DB_01_1A
+Project	LSSST-J&J
+Customer	J&J
+Revenue_Type	Revenue
+i-099087684940dc576
+Retention Period	-
+Requestor	RadhaKrushna
+Version	7.3.1.5
+Region	N.Virginia
+Name	agLSSST_JnJ_QC_NT_Services_1A
+Ticket ID	-
+Product	NT_Service
+Business_Model	Private
+Provisioning Month	-
+Service	EC2
+Provisioner	-
+Project	LSSST-J&J
+Business Unit	agSafety
+OS Version	-
+Revenue_Type	Revenue
+Customer	J&J
+DB Version	NA
+Environment	QC
+Remarks	
+i-0089e2ba177980a1d
+Customer	J&J
+Revenue_Type	Revenue
+Environment	QC
+Region	N.Virginia
+Business Unit	agSafety
+Business_Model	Private
+Project	LSSST-J&J
+Provisioner	Rajendra
+Product	Arisg
+Name	agLSSST_JnJ_QC_IRT_OST_1B
+Remarks	
+Service	EC2
+i-0cc1d032d4ddb6b08
+Product	Communications
+Provisioning Month	NOV 2018
+Revenue_Type	Revenue
+OS Version	Centos7
+Region	N.Virginia
+Ticket ID	CTOS-558287
+Requestor	Ashotosh Sahoo
+Version	
+Business_Model	Private
+Service	EC2
+Environment	Production
+Provisioner	Rajendra
+Customer	J&J
+Business Unit	agSafety
+DB Version	NA
+Retention Period	Till Customer live
+Project	LSSST-J&J
+Name	agLSSST_J&J_PRD_CCM_01_1A
+Remarks	
+i-0412db878e6ba208b
+OS Version	-
+Project	LSSST-J&J
+Revenue_Type	Revenue
+Remarks	
+DB Version	NA
+Region	N.Virginia
+Requestor	RadhaKrushna
+Name	agLSSST_JnJ_DEV_NT_Services_1A
+Customer	J&J
+Environment	Development
+Business Unit	agSafety
+Retention Period	-
+Product	NT_Service
+Version	7.3.1.5
+Business_Model	Private
+Ticket ID	-
+Provisioner	-
+Provisioning Month	-
+Service	EC2
+i-0f7a1a193419a39f9
+Project	LSSST-J&J
+Business_Model	Private
+Remarks	
+Environment	Production
+Business Unit	agSafety
+Provisioner	Rajendra
+Product	agEncoder
+Provisioning Month	NOV 2018
+OS Version	Centos7
+DB Version	NA
+Region	N.Virginia
+Requestor	Ashotosh Sahoo
+Retention Period	Till Customer live
+Ticket ID	CTOS-558287
+Service	EC2
+Customer	J&J
+Revenue_Type	Revenue
+Version	
+Name	agLSSST_J&J_PRD_agEncoder_02_1B
+i-0b59f959b3d8aa20d
+Version	-
+Provisioning Month	NOV 2018
+Revenue_Type	Revenue
+DB Version	NA
+OS Version	Windows 2012 R2 STD
+Retention Period	Till Customer live
+Project	LSSST-J&J
+Environment	Production
+Name	agLSSST_J&J_PRD_Documentum_01_1A
+Business Unit	agSafety
+Customer	J&J
+Product	Documentum
+Provisioner	Rajendra
+Ticket ID	CTOS-558287
+Requestor	Ashotosh Sahoo
+Region	N.Virginia
+Service	EC2
+Business_Model	Private
+Remarks	-
+i-03698a3a2bac8f6a8
+Revenue_Type	Revenue
+ Region	N.Virginia
+Name	 agLSSST_J&J_PRD_NTServices_03_1A
+ Service	EC2
+ Ticket ID	CTOS-558287
+Project	LSSST-J&J
+Retention Period	Till Customer live
+OS Version	Windows 2012 R2 STD
+Customer	J&J
+Product	NT_Service
+DB Version	NA
+Business Unit	agSafety
+Version	7.4.4
+Business_Model	Private
+Provisioning Month	NOV 2018
+Provisioner	Rajendra
+Remarks	-
+Requestor	Ashotosh Sahoo
+Environment	Production
+i-0234906b7030b8057
+Ticket ID	-
+Customer	J&J
+Name	agLSSST_JnJ_SBX_Documentum_1A
+DB Version	NA
+Business Unit	agSafety
+Provisioning Month	-
+Retention Period	-
+Version	7.4.4
+Region	North Virginia 
+Provisioner	-
+Business_Model	Private
+Service	EC2
+Environment	Sandbox
+Revenue_Type	Revenue
+OS Version	-
+Product	Documentum
+Project	LSSST-J&J
+Requestor	RadhaKrushna
+Remarks	
+i-0c1c2f8e8297fabc6
+Revenue_Type	Revenue
+Service	EC2
+Business_Model	Private
+Version	7.4.4
+Region	N.Virginia
+Business Unit	agSafety
+Remarks	
+Customer	J&J
+Name	agLSSST_J&J_PRD_ARISG_01_1A
+Ticket ID	CTOS-558287
+Provisioner	Rajendra
+Requestor	Ashotosh Sahoo
+Environment	Production
+Retention Period	Till Customer live
+Product	ARISg
+Provisioning Month	NOV 2018
+OS Version	Centos7
+DB Version	NA
+Project	LSSST-J&J
+i-03c8a4d012cda2e57
+Provisioning Month	NOV 2018
+Service	EC2
+OS Version	Centos7
+Retention Period	Till Customer live
+Requestor	Ashotosh Sahoo
+Product	ARISg
+Project	LSSST-J&J
+DB Version	NA
+Remarks	
+Environment	Production
+Provisioner	Rajendra
+Business Unit	agSafety
+Business_Model	Private
+Customer	J&J
+Name	agLSSST_J&J_PRD_ARISG_03_1A
+Ticket ID	CTOS-558287
+Revenue_Type	Revenue
+Version	7.4.4
+Region	N.Virginia
+i-0361a515f0a779905
+Provisioning Month	NOV 2018
+Service	EC2
+OS Version	Centos7
+Requestor	Ashotosh Sahoo
+DB Version	NA
+Ticket ID	CTOS-558287
+Product	ARISg
+Retention Period	Till Customer live
+Project	LSSST-J&J
+Business Unit	agSafety
+Provisioner	Rajendra
+Remarks	
+Business_Model	Private
+Name	agLSSST_J&J_PRD_ARISG_02_1A
+Environment	Production
+Revenue_Type	Revenue
+Customer	J&J
+Version	7.4.4
+Region	N.Virginia
+i-055b02b215a190f7d
+Environment	Production
+Name	agLSSST_J&J_PRD_ARISG_05_1A
+Business Unit	agSafety
+Remarks	
+Customer	J&J
+Provisioner	Rajendra
+Ticket ID	CTOS-558287
+Requestor	Ashotosh Sahoo
+Region	N.Virginia
+Service	EC2
+Business_Model	Private
+Version	7.4.4
+Provisioning Month	NOV 2018
+Revenue_Type	Revenue
+DB Version	NA
+Product	ARISg
+Retention Period	Till Customer live
+OS Version	Centos7
+Project	LSSST-J&J
+i-0cf109c778c1090a1
+Version	7.4.4
+Service	EC2
+DB Version	NA
+Region	N.Virginia
+Requestor	Ashotosh Sahoo
+Provisioning Month	NOV 2018
+Customer	J&J
+Remarks	
+Retention Period	Till Customer live
+Business_Model	Private
+Project	LSSST-J&J
+OS Version	Centos7
+Provisioner	Rajendra
+Business Unit	agSafety
+Revenue_Type	Revenue
+Product	ARISg
+Name	agLSSST_J&J_PRD_ARISG_04_1A
+Ticket ID	CTOS-558287
+Environment	Production
+i-083040805e0625718
+Environment	Sandbox
+Region	North Virginia 
+OS Version	-
+Business_Model	Private
+Retention Period	-
+Customer	J&J
+Revenue_Type	Revenue
+DB Version	NA
+Requestor	RadhaKrushna
+Service	EC2
+Remarks	
+Ticket ID	-
+Provisioner	-
+Provisioning Month	-
+Project	LSSST-J&J
+Business Unit	agSafety
+Name	agLSSST_JNJ_SBX_agEncoder_1A
+Product	agEncoder
+Version	7.4.0.1
+i-0324d7c4470b3bde6
+Service	EC2
+Requestor	RadhaKrushna
+Provisioning Month	-
+Business Unit	agSafety
+DB Version	NA
+Environment	Sandbox
+OS Version	-
+Business_Model	Private
+Project	LSSST-J&J
+Remarks	
+Product	CCM_Alerts
+Provisioner	-
+Region	North Virginia 
+Version	7.3.1.5
+Ticket ID	-
+Customer	J&J
+Name	agLSSST_JnJ_SBX_CCM_1A
+Revenue_Type	Revenue
+Retention Period	-
+i-09c797741f2d91be1
+Business Unit	agSafety
+Remarks	
+Project	LSSST-J&J
+Product	IRT_OST
+Ticket ID	-
+Requestor	RadhaKrushna
+DB Version	NA
+OS Version	-
+Business_Model	Private
+Region	North Virginia 
+Provisioning Month	-
+Service	EC2
+Provisioner	-
+Name	agLSSST_JNJ_SBX_IRT_OST_1A
+Version	7.3.1.5
+Environment	Sandbox
+Retention Period	-
+Revenue_Type	Revenue
+Customer	J&J
+i-02ce72126f2444697
+Environment	Production
+Provisioner	Rajendra
+Customer	J&J
+Business Unit	agSafety
+Region	N.Virginia
+Product	agXchange
+Requestor	Ashotosh Sahoo
+Ticket ID	CTOS-558287
+Version	7.4.4
+Service	EC2
+Business_Model	Private
+Provisioning Month	NOV 2018
+Revenue_Type	Revenue
+Name	agLSSST_J&J_PRD_AGX_10_1B
+OS Version	Centos7
+Retention Period	Till Customer live
+DB Version	NA
+Project	LSSST-J&J
+Remarks	
+i-077788bdd7f51a661
+Customer	J&J
+Business Unit	agSafety
+DB Version	NA
+Remarks	
+Retention Period	Till Customer live
+Region	N.Virginia
+Version	7.4.4
+Revenue_Type	Revenue
+OS Version	Centos7
+Business_Model	Private
+Project	LSSST-J&J
+Provisioning Month	NOV 2018
+Service	EC2
+Environment	Production
+Ticket ID	CTOS-558287
+Name	agLSSST_J&J_PRD_AGX_12_1B
+Product	agXchange
+Provisioner	Rajendra
+Requestor	Ashotosh Sahoo
+i-02c62a13593b8f29d
+Service	EC2
+OS Version	Centos7
+Requestor	Ashotosh Sahoo
+DB Version	NA
+Ticket ID	CTOS-558287
+Name	agLSSST_J&J_PRD_AGX_11_1B
+Product	agXchange
+Retention Period	Till Customer live
+Project	LSSST-J&J
+Provisioning Month	NOV 2018
+Business Unit	agSafety
+Remarks	
+Provisioner	Rajendra
+Business_Model	Private
+Environment	Production
+Revenue_Type	Revenue
+Customer	J&J
+Version	7.4.4
+Region	N.Virginia
+i-051ee519b846ed9e9
+Revenue_Type	Revenue
+OS Version	Centos7
+Name	agLSSST_J&J_PRD_AGX_09_1B
+Project	LSSST-J&J
+Remarks	
+Customer	J&J
+Ticket ID	CTOS-558287
+DB Version	NA
+Region	N.Virginia
+Version	7.4.4
+Retention Period	Till Customer live
+Provisioning Month	NOV 2018
+Business_Model	Private
+Environment	Production
+Service	EC2
+Business Unit	agSafety
+Requestor	Ashotosh Sahoo
+Product	agXchange
+Provisioner	Rajendra
+i-097c854cdc27b98e5
+Provisioning Month	NOV 2018
+Revenue_Type	Revenue
+Region	N.Virginia
+Business_Model	Private
+Service	EC2
+Version	7.4.4
+Environment	Production
+Business Unit	agSafety
+Remarks	
+Customer	J&J
+Product	agXchange
+Provisioner	Rajendra
+Ticket ID	CTOS-558287
+Requestor	Ashotosh Sahoo
+DB Version	NA
+Retention Period	Till Customer live
+Name	agLSSST_J&J_PRD_AGX_08_1B
+OS Version	Centos7
+Project	LSSST-J&J
+i-06410780da7ffda51
+Name	agLSSST_J&J_PRD_AGX_07_1B
+Business_Model	Private
+Environment	Production
+Customer	J&J
+Revenue_Type	Revenue
+Version	7.4.4
+Region	N.Virginia
+DB Version	NA
+Product	agXchange
+Requestor	Ashotosh Sahoo
+Retention Period	Till Customer live
+Ticket ID	CTOS-558287
+Service	EC2
+Business Unit	agSafety
+Remarks	
+Provisioner	Rajendra
+Provisioning Month	NOV 2018
+Project	LSSST-J&J
+OS Version	Centos7
+i-03a8cb7d123ee28f5
+Requestor	Ashotosh Sahoo
+Retention Period	Till Customer live
+Service	EC2
+Customer	J&J
+Ticket ID	CTOS-558287
+Provisioner	Rajendra
+Business Unit	agSafety
+Provisioning Month	NOV 2018
+Name	agLSSST_J&J_PRD_CCM_02_1B
+Remarks	
+DB Version	NA
+Project	LSSST-J&J
+OS Version	Centos7
+Product	CCM_Alerts
+Revenue_Type	Revenue
+Environment	Production
+Business_Model	Private
+Region	N.Virginia
+Version	
+i-0a09d9640d7c79c3a
+Provisioner	-
+Business_Model	Private
+Remarks	
+OS Version	-
+Product	IRT_OST
+Name	agLSSST_JnJ_DEV_IRT_OST_1A
+Project	LSSST-J&J
+Ticket ID	-
+Business Unit	agSafety
+Provisioning Month	-
+Service	EC2
+Environment	Development
+DB Version	NA
+Region	N.Virginia
+Retention Period	-
+Requestor	RadhaKrushna
+Version	7.3.1.5
+Revenue_Type	Revenue
+Customer	J&J
+i-0d19894603614afc9
+Region	North Virginia 
+Project	LSSST-J&J
+OS Version	-
+Business_Model	Private
+Remarks	
+Business Unit	agSafety
+Environment	Sandbox
+Provisioner	Rajendra
+Product	Arisg
+Requestor	RadhaKrushna
+Service	EC2
+Name	agLSSST_JNJ_SBX_RRDB
+DB Version	NA
+Provisioning Month	-
+Ticket ID	-
+Version	7.3.1.5
+Retention Period	-
+Revenue_Type	Revenue
+Customer	J&J

@@ -1,0 +1,142 @@
+#!/bin/bash
+
+#read -p "Enter imgid : " imgid
+#read -p "Enter keyname : " keyname
+#read -p "Enter subnet : " subnet
+#read -p "Enter sgroup : " sgroup
+#read -p "Enter count : " count
+#read -p "Enter instype : " instype
+#read -p "Enter privip : " privip
+#read -p "Enter instname : " instname
+#read -p "Enter regionname : " regionname
+#read -p "Enter region : " region
+read -p "Do you want to assign private IP (y/n)? " CONT
+   echo
+   if [ "$CONT" = "y" ]; then
+   read -p "Enter privip : " privip
+   fi
+echo "privateip = --private-ip-address $privip"
+#echo "aws --profile agsafety ec2 run-instances --image-id $imgid  --count $count --instance-type $instype --key-name $keyname --security-group-ids $sgroup --subnet-id $subnet --private-ip-address $privip --disable-api-termination --tag-specifications 'ResourceType=instance,Tags=[{Key=Application,Value=ARISg},{Key=Business Unit,Value=agSafety},{Key=Business_Modle,Value=Single Tenant},{Key=Customer,Value=JNJ},{Key=Environment,Value=TRAINING},{Key=Name,Value=$instname},{Key=Product,Value=Arisg},{Key=Region,Value=$regionname},{Key=Service,Value=EC2}]' --region $region"
+####################################################################################################################################	
+echo "aws --profile agsafety ec2 run-instances --image-id $imgid  --count $count --instance-type $instype --key-name $keyname --security-group-ids $sgroup --subnet-id $subnet --disable-api-termination  --tag-specifications 'ResourceType=instance,Tags=[{Key=Application,Value=ARISg},{Key=Business Unit,Value=agSafety},{Key=Business_Modle,Value=Single Tenant},{Key=Customer,Value=JNJ},{Key=Environment,Value=TRAINING},{Key=Name,Value=$instname},{Key=Product,Value=Arisg},{Key=Region,Value=$regionname},{Key=Service,Value=EC2}]' --region $region"
+echo "#############################################################################################################################"
+{
+    "BlockDeviceMappings": [
+        {
+            "DeviceName": "", 
+            "VirtualName": "", 
+            "Ebs": {
+                "DeleteOnTermination": true, 
+                "Iops": 0, 
+                "SnapshotId": "", 
+                "VolumeSize": 0, 
+                "VolumeType": "io1", 
+                "Encrypted": true, 
+                "KmsKeyId": ""
+            }, 
+            "NoDevice": ""
+        }
+    ], 
+    "ImageId": "$imageid", 
+    "InstanceType": "$instid", 
+    ], 
+    "KeyName": "$keypairname", 
+    "MaxCount": 0, 
+    "MinCount": 0, 
+    "Monitoring": {
+        "Enabled": true
+    }, 
+    "Placement": {
+        "AvailabilityZone": "", 
+        "Affinity": "", 
+        "GroupName": "", 
+        "HostId": "", 
+        "Tenancy": "host", 
+        "SpreadDomain": ""
+    }, 
+    "RamdiskId": "", 
+    "SecurityGroupIds": [
+        ""
+    ], 
+    "SecurityGroups": [
+        "$securitygrp"
+    ], 
+    "SubnetId": "$subnetid", 
+    "UserData": "", 
+    "AdditionalInfo": "", 
+    "ClientToken": "", 
+    "DisableApiTermination": true, 
+    "DryRun": true, 
+    "EbsOptimized": true, 
+    "IamInstanceProfile": {
+        "Arn": "", 
+        "Name": ""
+    }, 
+    "InstanceInitiatedShutdownBehavior": "stop", 
+    "NetworkInterfaces": [
+        {
+            "AssociatePublicIpAddress": false, 
+            "DeleteOnTermination": true, 
+            "Description": "", 
+            "DeviceIndex": 0, 
+            "Groups": [
+                ""
+            ], 
+            "Ipv6AddressCount": 0, 
+            "Ipv6Addresses": [
+                {
+                    "Ipv6Address": ""
+                }
+            ], 
+            "NetworkInterfaceId": "", 
+            "PrivateIpAddress": "$privateip", 
+            "PrivateIpAddresses": [
+                {
+                    "Primary": true, 
+                    "PrivateIpAddress": ""
+                }
+            ], 
+            "SecondaryPrivateIpAddressCount": 0, 
+            "SubnetId": ""
+        }
+    ], 
+    "PrivateIpAddress": "", 
+    "ElasticGpuSpecification": [
+        {
+            "Type": ""
+        }
+    ], 
+    "TagSpecifications": [
+        {
+            "ResourceType": "image", 
+            "Tags": [
+                {
+                    "Key": "$tagkey", 
+                    "Value": "$tagvalue"
+                }
+            ]
+        }
+    ], 
+    "LaunchTemplate": {
+        "LaunchTemplateId": "", 
+        "LaunchTemplateName": "", 
+        "Version": ""
+    }, 
+    "InstanceMarketOptions": {
+        "MarketType": "spot", 
+        "SpotOptions": {
+            "MaxPrice": "", 
+            "SpotInstanceType": "one-time", 
+            "BlockDurationMinutes": 0, 
+            "ValidUntil": "1970-01-01T00:00:00", 
+            "InstanceInterruptionBehavior": "stop"
+        }
+    }, 
+    "CreditSpecification": {
+        "CpuCredits": ""
+    }, 
+    "CpuOptions": {
+        "CoreCount": 0, 
+        "ThreadsPerCore": 0
+    }
+}

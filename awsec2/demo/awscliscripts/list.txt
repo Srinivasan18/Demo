@@ -1,0 +1,12 @@
+#=======================||
+create_vpc
+create_subnet
+create_ec2
+create_elb
+create_securitygroup
+#=======================||
+modify_vpc
+modify_ec2
+modify_securitygroup
+#=======================||
+

@@ -1,0 +1,178 @@
+AWS account: agsafety
+image ID: ami-0fdd2abe52514a212
+region ID: us-east-1 
+keyname: agLSSTJNJ_QC
+subnet ID: subnet-1368c34f
+security_group ID: sg-0a6e95595ef888928
+Count: 1
+insttype: t2.micro
+value - Business Unit: agSafety 
+value - Environment: POC
+value - Project: LSSMT
+value - Name: iqtest1
+value - Product: ARISg
+value - Version: 7.4.1
+value - Region Name: North Virginia
+value - Business_Model: c
+value - Service: EC2
+value - Customer: JNJ
+value - Revenue_Type: Revenue
+value - Requestor: POC_request
+value - Provisioner: Srinivasan_vasanth
+value - Ticket ID: NA 
+value - OS Version: Centos7.4
+value - DB Version: NA
+value - Retention Period: 1day
+value - Provisioning Month: November
+
+
+aws --profile agsafety ec2 run-instances --iam-instance-profile Name=CLoudWatch_Role  --user-data file://my_script.txt   --image-id ami-0fdd2abe52514a212 --count 1 --instance-type t2.micro --key-name agLSSTJNJ_QC --security-group-ids sg-0a6e95595ef888928 --subnet-id subnet-1368c34f --disable-api-termination  --tag-specifications 'ResourceType=instance,Tags=[{Key=Business Unit,Value=agSafety}, {Key=Environment,Value=POC}, {Key=Project,Value=POC}, {Key=Name,Value=LinuxHardening}, {Key=Product,Value=NA}, {Key=Version,Value=NA}, {Key=Region,Value=North Virginia},{Key='Business_Model',Value=NA}, {Key='Service',Value=EC2}, {Key='Customer',Value=Internal}, {Key='Revenue_Type',Value=non-revenue}, {Key='Requestor',Value=POC_request}, {Key='Provisioner',Value=Srinivasan_Vasanth}, {Key=Ticket ID,Value=NA}, {Key=OS Version,Value=NA}, {Key=DB Version,Value=NA}, {Key=Retention Period,Value=1-day}, {Key=Provisioning Month,Value=November}]' --region us-east-1
+
+
+ec2 modify-volume --volume-id vol-0722e60274dae8fd7 --size 100 --region eu-west-1
+ec2 create-volume --availability-zone eu-west-1b --no-encrypted --size 6144 --volume-type gp2 --region eu-west-1
+ec2  attach-volume --device  /dev/xvdf --instance-id i-0eb418dca43990a02 --volume-id vol-052250b1fa776530b  --region eu-west-1
+
+ec2 describe-instances --filter 'Name=private-ip-address,Values=10.100.23.134' --region eu-west-1
+10.100.23.134 
+
+ec2 describe-instances --filter 'Name=private-ip-address,Values=10.100.23.143' --region eu-west-1
+10.100.23.143
+
+
+ami-09479453c5cde9639
+
+|||                               Instances                               |||
+||+-----------------------------+-----------------------------------------+||
+|||  AmiLaunchIndex             |  0                                      |||
+|||  Architecture               |  x86_64                                 |||
+|||  ClientToken                |                                         |||
+|||  EbsOptimized               |  True                                   |||
+|||  EnaSupport                 |  True                                   |||
+|||  Hypervisor                 |  xen                                    |||
+|||  ImageId                    |  ami-0ef44af77ea978082                  |||
+|||  InstanceId                 |  i-0060193843ad47ed5                    |||
+|||  InstanceType               |  m5.2xlarge                             |||
+|||  KeyName                    |  agi                                    |||
+|||  LaunchTime                 |  2018-11-12T07:15:05.000Z               |||
+|||  PrivateDnsName             |  ip-10-100-23-134.ec2.internal          |||
+|||  PrivateIpAddress           |  10.100.23.134                          |||
+|||  PublicDnsName              |                                         |||
+|||  RootDeviceName             |  /dev/xvda                              |||
+|||  RootDeviceType             |  ebs                                    |||
+|||  SourceDestCheck            |  True                                   |||
+|||  StateTransitionReason      |                                         |||
+|||  SubnetId                   |  subnet-0a6b1926                        |||
+|||  VirtualizationType         |  hvm                                    |||
+|||  VpcId                      |  vpc-c1e033a6                           |||
+||+-----------------------------+-----------------------------------------+||
+||||                         BlockDeviceMappings                         ||||
+|||+-----------------------------------+---------------------------------+|||
+||||  DeviceName                       |  /dev/xvda                      ||||
+|||+-----------------------------------+---------------------------------+|||
+|||||                                Ebs                                |||||
+||||+-----------------------------+-------------------------------------+||||
+|||||  AttachTime                 |  2018-09-12T16:41:31.000Z           |||||
+|||||  DeleteOnTermination        |  True                               |||||
+|||||  Status                     |  attached                           |||||
+|||||  VolumeId                   |  vol-0548fc55ddbe4ec6b              |||||
+||||+-----------------------------+-------------------------------------+||||
+||||                         BlockDeviceMappings                         ||||
+|||+------------------------------------+--------------------------------+|||
+||||  DeviceName                        |  /dev/sdf                      ||||
+|||+------------------------------------+--------------------------------+|||
+|||||                                Ebs                                |||||
+||||+-----------------------------+-------------------------------------+||||
+|||||  AttachTime                 |  2018-09-12T16:41:31.000Z           |||||
+|||||  DeleteOnTermination        |  True                               |||||
+|||||  Status                     |  attached                           |||||
+|||||  VolumeId                   |  vol-02ed26bba7655fcc5              |||||
+||||+-----------------------------+-------------------------------------+||||
+||||                             CpuOptions                              ||||
+|||+------------------------------------------------------+--------------+|||
+||||  CoreCount                                           |  4           ||||
+||||  ThreadsPerCore                                      |  2           ||||
+|||+------------------------------------------------------+--------------+|||
+||||                         IamInstanceProfile                          ||||
+|||+-----+---------------------------------------------------------------+|||
+||||  Arn|  arn:aws:iam::120576144129:instance-profile/Cloudwatch_role   ||||
+||||  Id |  AIPAJ6TXC5F3WM4DXIIDG                                        ||||
+|||+-----+---------------------------------------------------------------+|||
+||||                             Monitoring                              ||||
+|||+----------------------------+----------------------------------------+|||
+||||  State                     |  disabled                              ||||
+|||+----------------------------+----------------------------------------+|||
+||||                          NetworkInterfaces                          ||||
+|||+--------------------------+------------------------------------------+|||
+||||  Description             |  Primary network interface               ||||
+||||  MacAddress              |  12:f1:5a:d8:00:7e                       ||||
+||||  NetworkInterfaceId      |  eni-044f118e2e177e5a7                   ||||
+||||  OwnerId                 |  120576144129                            ||||
+||||  PrivateDnsName          |  ip-10-100-23-134.ec2.internal           ||||
+||||  PrivateIpAddress        |  10.100.23.134                           ||||
+||||  SourceDestCheck         |  True                                    ||||
+||||  Status                  |  in-use                                  ||||
+||||  SubnetId                |  subnet-0a6b1926                         ||||
+||||  VpcId                   |  vpc-c1e033a6                            ||||
+|||+--------------------------+------------------------------------------+|||
+|||||                            Attachment                             |||||
+||||+---------------------------+---------------------------------------+||||
+|||||  AttachTime               |  2018-09-12T16:41:30.000Z             |||||
+|||||  AttachmentId             |  eni-attach-04cb2c7f8c21fd5bb         |||||
+|||||  DeleteOnTermination      |  True                                 |||||
+|||||  DeviceIndex              |  0                                    |||||
+|||||  Status                   |  attached                             |||||
+||||+---------------------------+---------------------------------------+||||
+|||||                              Groups                               |||||
+||||+------------------------------+------------------------------------+||||
+|||||  GroupId                     |  sg-5a04e510                       |||||
+|||||  GroupName                   |  ALG_SG                            |||||
+||||+------------------------------+------------------------------------+||||
+|||||                        PrivateIpAddresses                         |||||
+||||+------------------------+------------------------------------------+||||
+|||||  Primary               |  True                                    |||||
+|||||  PrivateDnsName        |  ip-10-100-23-134.ec2.internal           |||||
+|||||  PrivateIpAddress      |  10.100.23.134                           |||||
+||||+------------------------+------------------------------------------+||||
+||||                              Placement                              ||||
+|||+----------------------------------------+----------------------------+|||
+||||  AvailabilityZone                      |  us-east-1b                ||||
+||||  GroupName                             |                            ||||
+||||  Tenancy                               |  default                   ||||
+|||+----------------------------------------+----------------------------+|||
+||||                           SecurityGroups                            ||||
+|||+-------------------------------+-------------------------------------+|||
+||||  GroupId                      |  sg-5a04e510                        ||||
+||||  GroupName                    |  ALG_SG                             ||||
+|||+-------------------------------+-------------------------------------+|||
+||||                                State                                ||||
+|||+----------------------------+----------------------------------------+|||
+||||  Code                      |  16                                    ||||
+||||  Name                      |  running                               ||||
+|||+----------------------------+----------------------------------------+|||
+||||                                Tags                                 ||||
+|||+-------------------------------------+-------------------------------+|||
+||||                 Key                 |             Value             ||||
+|||+-------------------------------------+-------------------------------+|||
+||||  Project                            |  agBalance                    ||||
+||||  OS Version                         |  -                            ||||
+||||  DB Version                         |  NA                           ||||
+||||  Remarks                            |                               ||||
+||||  Region                             |  North Virginia               ||||
+||||  Requestor                          |  Manjunath                    ||||
+||||  Business Unit                      |  agBalance                    ||||
+||||  Revenue_Type                       |  Non-Revenue                  ||||
+||||  Service                            |  EC2                          ||||
+||||  Business_Model                     |  Private                      ||||
+||||  Provisioning Month                 |  -                            ||||
+||||  Provisioner                        |  -                            ||||
+||||  Name                               |  agBal_Demo                   ||||
+||||  Retention Period                   |  -                            ||||
+||||  Customer                           |  Internal                     ||||
+||||  Environment                        |  Demo                         ||||
+||||  Product                            |  agBalance                    ||||
+||||  Ticket ID                          |  -                            ||||
+|||+-------------------------------------+-------------------------------+|||
+
+
+i-05940892847340ddc

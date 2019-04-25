@@ -1,0 +1,4 @@
+1. User must enter a file name.
+2. The file is opened using the open() function in the read mode.
+3. A for loop is used to read through each line in the file.
+4. The line count is incremented each time and the final count is printed.

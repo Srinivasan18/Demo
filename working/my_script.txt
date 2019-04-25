@@ -1,0 +1,14 @@
+################Linux Instance######################################
+
+sudo yum install -y https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/linux_amd64/amazon-ssm-agent.rpm;
+sudo wget https://trendmicrodsm.agcloud.bz:443/software/agent/RedHat_EL6/x86_64/ -O /tmp/agent.rpm --no-check-certificate --quiet;
+
+
+rpm --replacepkgs -ihv /tmp/agent.rpm;
+
+
+sleep 15;
+/opt/ds_agent/dsa_control -r;
+/opt/ds_agent/dsa_control -a dsm://trendmicrohb.agcloud.bz:443/ "policyid:20";
+################Windows Instance######################################
+

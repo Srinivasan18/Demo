@@ -1,0 +1,154 @@
+[root@phpipam working]# ./aws_ec2_create.py
+AWS account: agsafety
+image ID: ami-0fdd2abe52514a212
+region ID: us-east-1
+keyname: agLSSTJNJ_QC
+subnet ID: subnet-1368c34f
+security_group ID: sg-0a6e95595ef888928
+Count: 1
+insttype: t2.micro
+value - Business Unit: agSafety
+value - Environment: Testing
+value - Project: Internal_poc
+value - Name: poc_awscli
+value - Product: NA
+value - Version: NA
+value - Region Name: North Virginia
+value - Business_Model: NA
+value - Service: NA
+value - Customer: Internal
+value - Revenue_Type: non-revenue
+value - Requestor: QBP
+value - Provisioner: Srinivasan Vasanth
+value - Ticket ID: NA
+value - OS Version: CENTOS7
+value - DB Version: na
+value - Retention Period: 1 day
+value - Provisioning Month: November
+Do you have reserved private IP address, Type yes/no?
+no
+aws --profile agsafety ec2 run-instances --iam-instance-profile Name=CLoudWatch_Role  --user-data file://my_script.txt   --image-id ami-0fdd2abe52514a212 --count 1 --instance-type t2.micro --key-name agLSSTJNJ_QC --security-group-ids sg-0a6e95595ef888928 --subnet-id subnet-1368c34f --disable-api-termination  --tag-specifications 'ResourceType=instance,Tags=[{Key=Business Unit,Value=agSafety}, {Key=Environment,Value=Testing}, {Key=Project,Value=Internal_poc}, {Key=Name,Value=poc_awscli}, {Key=Product,Value=NA}, {Key=Version,Value=NA}, {Key=Region,Value=North Virginia},{Key='Business_Model',Value=NA}, {Key='Service',Value=NA}, {Key='Customer',Value=Internal}, {Key='Revenue_Type',Value=non-revenue}, {Key='Requestor',Value=QBP}, {Key='Provisioner',Value=Srinivasan Vasanth}, {Key=Ticket ID,Value=NA}, {Key=OS Version,Value=CENTOS7}, {Key=DB Version,Value=na}, {Key=Retention Period,Value=1 day}, {Key=Provisioning Month,Value=November}]' --region us-east-1
+####################################################################
+Verify above deployment configuration, Type yes/no?
+####################################################################
+yes
+---------------------------------------------------------------------------
+|                              RunInstances                               |
++------------------------------+------------------------------------------+
+|  OwnerId                     |  906395810895                            |
+|  ReservationId               |  r-084057db6ef65c423                     |
++------------------------------+------------------------------------------+
+||                               Instances                               ||
+|+------------------------------+----------------------------------------+|
+||  AmiLaunchIndex              |  0                                     ||
+||  Architecture                |  x86_64                                ||
+||  ClientToken                 |                                        ||
+||  EbsOptimized                |  False                                 ||
+||  Hypervisor                  |  xen                                   ||
+||  ImageId                     |  ami-0fdd2abe52514a212                 ||
+||  InstanceId                  |  i-02fa991259a6b8d04                   ||
+||  InstanceType                |  t2.micro                              ||
+||  KeyName                     |  agLSSTJNJ_QC                          ||
+||  LaunchTime                  |  2018-11-23T09:11:19.000Z              ||
+||  PrivateDnsName              |  ip-10-116-4-124.ec2.internal          ||
+||  PrivateIpAddress            |  10.116.4.124                          ||
+||  PublicDnsName               |                                        ||
+||  RootDeviceName              |  /dev/sda1                             ||
+||  RootDeviceType              |  ebs                                   ||
+||  SourceDestCheck             |  True                                  ||
+||  StateTransitionReason       |                                        ||
+||  SubnetId                    |  subnet-1368c34f                       ||
+||  VirtualizationType          |  hvm                                   ||
+||  VpcId                       |  vpc-741ee10e                          ||
+|+------------------------------+----------------------------------------+|
+|||                             CpuOptions                              |||
+||+------------------------------------------------------+--------------+||
+|||  CoreCount                                           |  1           |||
+|||  ThreadsPerCore                                      |  1           |||
+||+------------------------------------------------------+--------------+||
+|||                         IamInstanceProfile                          |||
+||+-----+---------------------------------------------------------------+||
+|||  Arn|  arn:aws:iam::906395810895:instance-profile/CLoudWatch_Role   |||
+|||  Id |  AIPAI6A7HMTCXFQTQQHIG                                        |||
+||+-----+---------------------------------------------------------------+||
+|||                             Monitoring                              |||
+||+----------------------------+----------------------------------------+||
+|||  State                     |  disabled                              |||
+||+----------------------------+----------------------------------------+||
+|||                          NetworkInterfaces                          |||
+||+---------------------------+-----------------------------------------+||
+|||  Description              |                                         |||
+|||  MacAddress               |  0e:24:e6:6e:7e:10                      |||
+|||  NetworkInterfaceId       |  eni-05124178c90ca83c6                  |||
+|||  OwnerId                  |  906395810895                           |||
+|||  PrivateDnsName           |  ip-10-116-4-124.ec2.internal           |||
+|||  PrivateIpAddress         |  10.116.4.124                           |||
+|||  SourceDestCheck          |  True                                   |||
+|||  Status                   |  in-use                                 |||
+|||  SubnetId                 |  subnet-1368c34f                        |||
+|||  VpcId                    |  vpc-741ee10e                           |||
+||+---------------------------+-----------------------------------------+||
+||||                            Attachment                             ||||
+|||+---------------------------+---------------------------------------+|||
+||||  AttachTime               |  2018-11-23T09:11:19.000Z             ||||
+||||  AttachmentId             |  eni-attach-034c5393a741da4af         ||||
+||||  DeleteOnTermination      |  True                                 ||||
+||||  DeviceIndex              |  0                                    ||||
+||||  Status                   |  attaching                            ||||
+|||+---------------------------+---------------------------------------+|||
+||||                              Groups                               ||||
+|||+----------------------+--------------------------------------------+|||
+||||  GroupId             |  sg-0a6e95595ef888928                      ||||
+||||  GroupName           |  JNJ-Temporary-Aceess                      ||||
+|||+----------------------+--------------------------------------------+|||
+||||                        PrivateIpAddresses                         ||||
+|||+-------------------------+-----------------------------------------+|||
+||||  Primary                |  True                                   ||||
+||||  PrivateDnsName         |  ip-10-116-4-124.ec2.internal           ||||
+||||  PrivateIpAddress       |  10.116.4.124                           ||||
+|||+-------------------------+-----------------------------------------+|||
+|||                              Placement                              |||
+||+----------------------------------------+----------------------------+||
+|||  AvailabilityZone                      |  us-east-1b                |||
+|||  GroupName                             |                            |||
+|||  Tenancy                               |  default                   |||
+||+----------------------------------------+----------------------------+||
+|||                           SecurityGroups                            |||
+||+-----------------------+---------------------------------------------+||
+|||  GroupId              |  sg-0a6e95595ef888928                       |||
+|||  GroupName            |  JNJ-Temporary-Aceess                       |||
+||+-----------------------+---------------------------------------------+||
+|||                                State                                |||
+||+----------------------------+----------------------------------------+||
+|||  Code                      |  0                                     |||
+|||  Name                      |  pending                               |||
+||+----------------------------+----------------------------------------+||
+|||                             StateReason                             |||
+||+---------------------------------+-----------------------------------+||
+|||  Code                           |  pending                          |||
+|||  Message                        |  pending                          |||
+||+---------------------------------+-----------------------------------+||
+|||                                Tags                                 |||
+||+---------------------------------+-----------------------------------+||
+|||               Key               |               Value               |||
+||+---------------------------------+-----------------------------------+||
+|||  DB Version                     |  na                               |||
+|||  Ticket ID                      |  NA                               |||
+|||  Name                           |  poc_awscli                       |||
+|||  OS Version                     |  CENTOS7                          |||
+|||  Service                        |  NA                               |||
+|||  Region                         |  North Virginia                   |||
+|||  Retention Period               |  1 day                            |||
+|||  Business_Model                 |  NA                               |||
+|||  Provisioning Month             |  November                         |||
+|||  Revenue_Type                   |  non-revenue                      |||
+|||  Customer                       |  Internal                         |||
+|||  Product                        |  NA                               |||
+|||  Version                        |  NA                               |||
+|||  Environment                    |  Testing                          |||
+|||  Project                        |  Internal_poc                     |||
+|||  Business Unit                  |  agSafety                         |||
+|||  Provisioner                    |  Srinivasan Vasanth               |||
+|||  Requestor                      |  QBP                              |||
+||+---------------------------------+-----------------------------------+||
+
